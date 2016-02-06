@@ -117,7 +117,17 @@
 		  <a href="http://www.archlinux.org/packages/community/i686/premake/">Premake i686</a><br/>
 		  <a href="http://www.archlinux.org/packages/community/x86_64/premake/">Premake x86_64</a>
 		</td>
-		</tr></tbody></table>
+		</tr><tr class="odd">
+		 <th>Debian</th>
+		 <td>
+			<pre><code>
+apt-key adv --keyserver keys.gnupg.net --recv-keys FFBA9E40
+echo 'deb http://repo.nofla.me/ jessie main' >> /etc/apt/sources.list
+apt-get update
+apt-get install premake5
+			</code></pre>
+		  </d>
+		 </tr></tbody></table>
 	</section>
 
 </body>
