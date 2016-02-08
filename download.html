@@ -107,16 +107,26 @@
 		<p>The following package repositories have been made available by volunteers. There may be a delay while they update to the latest version. If you would like to volunteer to host a repository, please <a href="https://github.com/premake/premake-core/wiki/Getting-Help">get in touch</a>.</p>
 
 		<table><tbody><tr class="odd">
-		 <th>Ubuntu</th>
-		 <td>
-		  <a href="https://launchpad.net/~codegear/+archive/release">Repository courtesy of Ryan Mulder and Ryan Pusztai</a>
-		 </td>
+			<th>Ubuntu</th>
+			<td>
+			  <a href="https://launchpad.net/~codegear/+archive/release">Repository courtesy of Ryan Mulder and Ryan Pusztai</a>
+		 	</td>
 		</tr><tr class="even">
-		 <th>Arch Linux</th>
-		 <td>
-		  <a href="http://www.archlinux.org/packages/community/i686/premake/">Premake i686</a><br/>
-		  <a href="http://www.archlinux.org/packages/community/x86_64/premake/">Premake x86_64</a>
-		</td>
+			<th>Debian</th>
+		 	<td>
+			<pre><code>
+ $ apt-key adv --keyserver keys.gnupg.net --recv-keys FFBA9E40
+ $ echo 'deb http://repo.nofla.me/ jessie main' >> /etc/apt/sources.list
+ $ apt-get update
+ $ apt-get install premake5
+ 			</code></pre>
+ 			</td>
+		</tr><tr class="odd">
+			<th>Arch Linux</th>
+		 	<td>
+			  <a href="http://www.archlinux.org/packages/community/i686/premake/">Premake i686</a><br/>
+			  <a href="http://www.archlinux.org/packages/community/x86_64/premake/">Premake x86_64</a>
+			</td>
 		</tr></tbody></table>
 	</section>
 
