@@ -20,7 +20,7 @@ h4 {
 	margin-left: 22px;
 }
 
-img {
+#header>img {
 	float: left;
 	width: 256px;
 	height: 256px;
