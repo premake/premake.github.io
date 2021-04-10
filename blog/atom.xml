@@ -6,5 +6,5 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://premake.github.io/blog"/>
     <subtitle>Premake Blog</subtitle>
-    <icon>https://premake.github.io/img/premake-logo.png</icon>
+    <icon>https://premake.github.io/img/favicon.ico</icon>
 </feed>
