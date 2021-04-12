@@ -4,8 +4,57 @@
         <title>Premake Blog</title>
         <link>https://premake.github.io/blog</link>
         <description>Premake Blog</description>
-        <lastBuildDate>Sun, 25 Oct 2015 23:29:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Feb 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Community Update #7]]></title>
+            <link>https://premake.github.io/blog/2021/02/24/community-update-7</link>
+            <guid>Community Update #7</guid>
+            <pubDate>Wed, 24 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A quick update this cycle so I can get right back to it: I managed to free up meaningful blocks of time for Premake in February—felt good!—and tackle files and removeFiles, support configuration and platform specific files, and get it all exporting to Visual Studio (…and bulldoze through the rabbit holes along the way). From the user-facing side not a big change, but a hefty commit just the same. The core platform is starting to feel reasonably complete.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Community Update #6]]></title>
+            <link>https://premake.github.io/blog/2020/11/02/community-udpate-6</link>
+            <guid>Community Update #6</guid>
+            <pubDate>Mon, 02 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enter the Exporters]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Community Update #5]]></title>
+            <link>https://premake.github.io/blog/2020/08/04/community-update-5</link>
+            <guid>Community Update #5</guid>
+            <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[The new storage system has arrived]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Community Update #4]]></title>
+            <link>https://premake.github.io/blog/2020/04/07/community-update-4</link>
+            <guid>Community Update #4</guid>
+            <pubDate>Tue, 07 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[It's been much longer than anticipated since the last community update. I was out of the country for a bit, and then shortly after my return the whole Situation hit the fan and things got crazy for a while. I'm back now, up and running and looking ahead to what's next. I hope all of you are also safe and sound and getting your groove back.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Community Update #3]]></title>
+            <link>https://premake.github.io/blog/2020/01/08/community-update-3</link>
+            <guid>Community Update #3</guid>
+            <pubDate>Wed, 08 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Just a quick update this time: I had big plans for new features this cycle, but ended up getting swamped in end-of-year deadlines, and was only able to deliver a small portion of what I had intended (and late, at that). Still, I did manage a quick port-and-polish of the unit testing module and all of its dependencies, so I'm well positioned to begin the new user scripting API work in earnest. I will be on the road a fair bit over the next quarter, but I'm still optimistic that I can get enough of the new system online to give folks a sense of where things are headed.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Community Update #2]]></title>
+            <link>https://premake.github.io/blog/2019/10/23/ community-update-2</link>
+            <guid>Community Update #2</guid>
+            <pubDate>Wed, 23 Oct 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[For this cycle (I work in eight-week cycles and fill in as much Premake work as I can), I completed a long overdue pruning of the pull request backlog. Working up from the oldest, I was able to get it down to just four, all in striking distance of merging and just needing a little follow-up (assistance welcome!). I'll drop a list of all the PRs that were moved at the bottom of this update. Because…]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Community Update #1]]></title>
+            <link>https://premake.github.io/blog/2019/08/31/community-update-1</link>
+            <guid>Community Update #1</guid>
+            <pubDate>Sat, 31 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Say hello to the new Premake OpenCollective!]]></description>
+        </item>
     </channel>
 </rss>
