@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[118],{185:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"community-updates","name":"community-updates","count":9,"permalink":"/blog/tags/community-updates"}')}}]);
