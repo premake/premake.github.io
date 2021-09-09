@@ -13,6 +13,10 @@
         <link href="https://premake.github.io/blog/2021/08/01/community-update-9"/>
         <updated>2021-08-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[I can't believe we're already eight months into 2021, how did this happen.]]></summary>
+        <author>
+            <name>starkos</name>
+            <uri>https://github.com/starkos</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Community Update #8]]></title>
@@ -20,6 +24,10 @@
         <link href="https://premake.github.io/blog/2021/04/20/community-update-8"/>
         <updated>2021-04-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome Website!]]></summary>
+        <author>
+            <name>starkos</name>
+            <uri>https://github.com/starkos</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Community Update #7]]></title>
@@ -27,6 +35,10 @@
         <link href="https://premake.github.io/blog/2021/02/24/community-update-7"/>
         <updated>2021-02-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A quick update this cycle so I can get right back to it: I managed to free up meaningful blocks of time for Premake in February—felt good!—and tackle files and removeFiles, support configuration and platform specific files, and get it all exporting to Visual Studio (…and bulldoze through the rabbit holes along the way). From the user-facing side not a big change, but a hefty commit just the same. The core platform is starting to feel reasonably complete.]]></summary>
+        <author>
+            <name>starkos</name>
+            <uri>https://github.com/starkos</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Community Update #6]]></title>
@@ -34,6 +46,10 @@
         <link href="https://premake.github.io/blog/2020/11/02/community-udpate-6"/>
         <updated>2020-11-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Enter the Exporters]]></summary>
+        <author>
+            <name>starkos</name>
+            <uri>https://github.com/starkos</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Community Update #5]]></title>
@@ -41,6 +57,10 @@
         <link href="https://premake.github.io/blog/2020/08/04/community-update-5"/>
         <updated>2020-08-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The new storage system has arrived]]></summary>
+        <author>
+            <name>starkos</name>
+            <uri>https://github.com/starkos</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Community Update #4]]></title>
@@ -48,6 +68,10 @@
         <link href="https://premake.github.io/blog/2020/04/07/community-update-4"/>
         <updated>2020-04-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[It's been much longer than anticipated since the last community update. I was out of the country for a bit, and then shortly after my return the whole Situation hit the fan and things got crazy for a while. I'm back now, up and running and looking ahead to what's next. I hope all of you are also safe and sound and getting your groove back.]]></summary>
+        <author>
+            <name>starkos</name>
+            <uri>https://github.com/starkos</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Community Update #3]]></title>
@@ -55,6 +79,10 @@
         <link href="https://premake.github.io/blog/2020/01/08/community-update-3"/>
         <updated>2020-01-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Just a quick update this time: I had big plans for new features this cycle, but ended up getting swamped in end-of-year deadlines, and was only able to deliver a small portion of what I had intended (and late, at that). Still, I did manage a quick port-and-polish of the unit testing module and all of its dependencies, so I'm well positioned to begin the new user scripting API work in earnest. I will be on the road a fair bit over the next quarter, but I'm still optimistic that I can get enough of the new system online to give folks a sense of where things are headed.]]></summary>
+        <author>
+            <name>starkos</name>
+            <uri>https://github.com/starkos</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Community Update #2]]></title>
@@ -62,6 +90,10 @@
         <link href="https://premake.github.io/blog/2019/10/23/ community-update-2"/>
         <updated>2019-10-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[For this cycle (I work in eight-week cycles and fill in as much Premake work as I can), I completed a long overdue pruning of the pull request backlog. Working up from the oldest, I was able to get it down to just four, all in striking distance of merging and just needing a little follow-up (assistance welcome!). I'll drop a list of all the PRs that were moved at the bottom of this update. Because…]]></summary>
+        <author>
+            <name>starkos</name>
+            <uri>https://github.com/starkos</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Community Update #1]]></title>
@@ -69,5 +101,9 @@
         <link href="https://premake.github.io/blog/2019/08/31/community-update-1"/>
         <updated>2019-08-31T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Say hello to the new Premake OpenCollective!]]></summary>
+        <author>
+            <name>starkos</name>
+            <uri>https://github.com/starkos</uri>
+        </author>
     </entry>
 </feed>
