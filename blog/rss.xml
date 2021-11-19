@@ -4,9 +4,16 @@
         <title>Premake Blog</title>
         <link>https://premake.github.io/blog</link>
         <description>Premake Blog</description>
-        <lastBuildDate>Sun, 01 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Community Update #10]]></title>
+            <link>https://premake.github.io/blog/2021/11/21/community-update-10</link>
+            <guid>Community Update #10</guid>
+            <pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Premake 5.0-beta1! 🥳]]></description>
+        </item>
         <item>
             <title><![CDATA[Community Update #9]]></title>
             <link>https://premake.github.io/blog/2021/08/01/community-update-9</link>
