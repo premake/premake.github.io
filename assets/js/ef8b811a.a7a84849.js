@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[8947],{56600:e=>{e.exports=JSON.parse('{"authors":[{"name":"Jess Perkins","title":"Premake Admin & Developer","url":"https://github.com/starkos","imageURL":"https://github.com/starkos.png","key":"starkos","page":null,"count":10}]}')}}]);
