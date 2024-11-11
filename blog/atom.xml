@@ -2,11 +2,136 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://premake.github.io/blog</id>
     <title>Premake Blog</title>
-    <updated>2021-11-21T00:00:00.000Z</updated>
+    <updated>2024-11-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://premake.github.io/blog"/>
     <subtitle>Premake Blog</subtitle>
     <icon>https://premake.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Community Update #11]]></title>
+        <id>https://premake.github.io/blog/2024/11/09/community-update-11</id>
+        <link href="https://premake.github.io/blog/2024/11/09/community-update-11"/>
+        <updated>2024-11-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's been almost 3 years since the last community update, and over 2 years since the last beta.  Without further ado, here are the community contributions fromt the last 2 years.]]></summary>
+        <content type="html"><![CDATA[<p>It's been almost 3 years since the last community update, and over 2 years since the last beta.  Without further ado, here are the community contributions fromt the last 2 years.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="road-to-premake-50">Road to Premake 5.0<a href="https://premake.github.io/blog/2024/11/09/community-update-11#road-to-premake-50" class="hash-link" aria-label="Direct link to Road to Premake 5.0" title="Direct link to Road to Premake 5.0">​</a></h3>
+<p>Most of the heavy lifting for Premake 5.0 is done, but there are a few major milestones left for leaving beta and going to full release.</p>
+<ol>
+<li>
+<p>Deprecation and removal of the <a href="https://premake.github.io/docs/flags" target="_blank" rel="noopener noreferrer">flags</a> API. Flags are a remenant of older models. Instead, flags will be migrated to the idiomatic Premake approach of dedicated APIs. This isn't going to be as trivial as "On" and "Off", as many of these flags represent a larger group of behaviors.</p>
+</li>
+<li>
+<p>Deprecation and removal of the gmake exporter in favor of gmake2. This has been one of the goals for many years now, and we're confident that gmake2 is in a spot where it can be "promoted" to the primary GNU makefile exporter. In the next release, gmake will likely be renamed and deprecated, and gmake will describe the gmake2 exporter. This will be a breaking change, but we feel it is the best way forward to remove the bifurcation of the makefile exporter. Until the time when we do remove the legacy gmake exporter, users current leveraging the legacy exporter are encouraged to try out the gmake2 exporter and report any defects or feature deficiencies in order to make the change as seamless as possible.</p>
+</li>
+</ol>
+<p>In order to make sure we capture the needs of users for the 5.0 stable release, I encourage you to open issues or discussions to ensure the transition to 5.0 is an easy user experience.</p>
+<p>{/* truncate */}</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="community-contributions">Community Contributions<a href="https://premake.github.io/blog/2024/11/09/community-update-11#community-contributions" class="hash-link" aria-label="Direct link to Community Contributions" title="Direct link to Community Contributions">​</a></h3>
+<ul>
+<li><a href="https://github.com/premake/premake-core/pull/1841" target="_blank" rel="noopener noreferrer">#1841</a>  Update shadertype.md (@TylerDahl)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1842" target="_blank" rel="noopener noreferrer">#1842</a>  Update shaderobjectfileoutput.md (@TylerDahl)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1843" target="_blank" rel="noopener noreferrer">#1843</a>  Update shadermodel.md (@TylerDahl)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1942" target="_blank" rel="noopener noreferrer">#1942</a>  Release/v5.0 beta2 (@premake)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1951" target="_blank" rel="noopener noreferrer">#1951</a>  Fix custom build with missing directory (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1952" target="_blank" rel="noopener noreferrer">#1952</a>  vstudio: add usestandardpreprocessor option (@flakey5)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1954" target="_blank" rel="noopener noreferrer">#1954</a>  Add newoption.catagory to documentation, mark os.is as deprecated (@thomashope)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1959" target="_blank" rel="noopener noreferrer">#1959</a>  Use admonitions in documentation for things marked as deprecated (@thomashope)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1970" target="_blank" rel="noopener noreferrer">#1970</a>  Updated Android docs (@LORgames)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1971" target="_blank" rel="noopener noreferrer">#1971</a>  Fixed a couple of issues with the Custom Rules docs (@LORgames)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1975" target="_blank" rel="noopener noreferrer">#1975</a>  Strip linking decorators for sibling projects (@LORgames)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1976" target="_blank" rel="noopener noreferrer">#1976</a>  Android projects use IncludePath instead of ExternalIncludePath (@LORgames)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1978" target="_blank" rel="noopener noreferrer">#1978</a>  Added support for CopyFileToFolders via Copy buildaction (@LORgames)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1980" target="_blank" rel="noopener noreferrer">#1980</a>  Added UWP support for VS projects (@LORgames)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1981" target="_blank" rel="noopener noreferrer">#1981</a>  Update usefullpaths.md (@nepp95)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1985" target="_blank" rel="noopener noreferrer">#1985</a>  Update defaultplatform.md (@GiacomoMaino)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1992" target="_blank" rel="noopener noreferrer">#1992</a>  Add AntTarget to vsandroid project file (@0x416c69)</li>
+<li><a href="https://github.com/premake/premake-core/pull/1997" target="_blank" rel="noopener noreferrer">#1997</a>  Add validation for toolset. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2003" target="_blank" rel="noopener noreferrer">#2003</a>  Allow to specify "--cc=msc" as command line. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2004" target="_blank" rel="noopener noreferrer">#2004</a>  Handle entrypoint for msc. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2006" target="_blank" rel="noopener noreferrer">#2006</a>  <code>externalwarnings</code>, <code>externalanglebrackets</code>, <code>externalincludedirs</code> was already available in vs2019 (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2009" target="_blank" rel="noopener noreferrer">#2009</a>  Fix typos in comment. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2010" target="_blank" rel="noopener noreferrer">#2010</a>  Typo fix (@brno32)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2011" target="_blank" rel="noopener noreferrer">#2011</a>  Add support for unity builds (@Sharlock93)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2022" target="_blank" rel="noopener noreferrer">#2022</a>  Fix Debian build recepie. (@KOLANICH-tools)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2023" target="_blank" rel="noopener noreferrer">#2023</a>  Fix support of openmp for visual studio with clang toolset. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2024" target="_blank" rel="noopener noreferrer">#2024</a>  Fix typo in bytecode description. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2025" target="_blank" rel="noopener noreferrer">#2025</a>  Fix missing targets file issue in some C++ nuget packages (@hanagasira)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2027" target="_blank" rel="noopener noreferrer">#2027</a>  <code>sanitize { "Address" }</code> should set link flags too for gcc/clang. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2028" target="_blank" rel="noopener noreferrer">#2028</a>  Add support for idirafter flag in GCC/Clang (@nickclark2016)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2032" target="_blank" rel="noopener noreferrer">#2032</a>  Change to minimize differences after Codelite re-save the file (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2034" target="_blank" rel="noopener noreferrer">#2034</a>  Robustify <code>http.get</code> tests with retry. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2039" target="_blank" rel="noopener noreferrer">#2039</a>  gmake2: Fix detecting msdos vs posix shell (@Peter0x44)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2042" target="_blank" rel="noopener noreferrer">#2042</a>  Fix <code>compileas "C"</code> and <code>"C++"</code> for gcc (shared with clang). (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2052" target="_blank" rel="noopener noreferrer">#2052</a>  Fix typo (@rafaelcn)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2061" target="_blank" rel="noopener noreferrer">#2061</a>  Fixed issue with Codelite unit test (@LORgames)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2064" target="_blank" rel="noopener noreferrer">#2064</a>  Updated actions from v2 to v3 (@LORgames)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2066" target="_blank" rel="noopener noreferrer">#2066</a>  Improve error message of <code>include</code> (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2070" target="_blank" rel="noopener noreferrer">#2070</a>  Add support of prelink steps (similar to prebuild steps) for Codelite. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2072" target="_blank" rel="noopener noreferrer">#2072</a>  Fix prelink step dependencies for gmake (to be done after compilation). (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2075" target="_blank" rel="noopener noreferrer">#2075</a>  remove trailing whitespaces and add new line at eof (@hanagasira)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2076" target="_blank" rel="noopener noreferrer">#2076</a>  Allow to select specific version of msc in command line. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2081" target="_blank" rel="noopener noreferrer">#2081</a>  Add some missing flags for msc toolset (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2084" target="_blank" rel="noopener noreferrer">#2084</a>  Update debugdir.md docs to clarify feature support (@thomashope)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2087" target="_blank" rel="noopener noreferrer">#2087</a>  Add clarification for relative paths (@learn-more)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2088" target="_blank" rel="noopener noreferrer">#2088</a>  Fix nil indexing for codelite (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2090" target="_blank" rel="noopener noreferrer">#2090</a>  Add support to <code>undefines</code> for Codelite. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2102" target="_blank" rel="noopener noreferrer">#2102</a>  remove reference to non existent example. (@mcarlson-nvidia)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2104" target="_blank" rel="noopener noreferrer">#2104</a>  Add VS2022 to list of valid kinds for Android Packaging (@premake)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2117" target="_blank" rel="noopener noreferrer">#2117</a>  Require unistd.h for macosx in libzip (@nickclark2016)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2118" target="_blank" rel="noopener noreferrer">#2118</a>  Changes target of HTTP tests to hopefully resolve test issues in CI (@nickclark2016)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2122" target="_blank" rel="noopener noreferrer">#2122</a>  Fix <code>premake.findProjectScript</code> of previous commit. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2127" target="_blank" rel="noopener noreferrer">#2127</a>  Fixes for using debugger under Linux (@vadz)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2131" target="_blank" rel="noopener noreferrer">#2131</a>  Use call array for MSVS filters file generation too (@vadz)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2135" target="_blank" rel="noopener noreferrer">#2135</a>  Fix libzip missing a library (@KanuX-14)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2172" target="_blank" rel="noopener noreferrer">#2172</a>  Custom LLVM Versions for VS2019+ (@nickclark2016)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2187" target="_blank" rel="noopener noreferrer">#2187</a>  Enable code analysis via clang-tidy in Visual Studio (@theComputeKid)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2194" target="_blank" rel="noopener noreferrer">#2194</a>  [vs*] Allow to have per-file <code>cdialect</code>/<code>cppdialect</code>. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2195" target="_blank" rel="noopener noreferrer">#2195</a>  [vs2010+] Handle <code>compileas</code> for files with "unknown" extensions. (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2203" target="_blank" rel="noopener noreferrer">#2203</a>  Add CA root certificate path for Haiku (@augiedoggie)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2217" target="_blank" rel="noopener noreferrer">#2217</a>  Add Library to available shadertypes (@vkaytsanov)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2237" target="_blank" rel="noopener noreferrer">#2237</a>  [CI] add dependabot.yml to maintain version action up to date (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2238" target="_blank" rel="noopener noreferrer">#2238</a>  Bump the github-actions group with 3 updates (@premake)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2243" target="_blank" rel="noopener noreferrer">#2243</a>  Fix stack manipulation in Premake's <code>luaL_loadfilex</code> override. (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2251" target="_blank" rel="noopener noreferrer">#2251</a>  Add a <code>os.hostarch()</code> function to get the host system architecture. (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2252" target="_blank" rel="noopener noreferrer">#2252</a>  Document <code>os.rename</code> and <code>os.getenv</code> APIs (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2253" target="_blank" rel="noopener noreferrer">#2253</a>  Add <code>term.clearToEndOfLine</code> and <code>term.moveLeft</code> API additions. (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2254" target="_blank" rel="noopener noreferrer">#2254</a>  Adds <code>desktop</code> system tag to desktop systems. (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2255" target="_blank" rel="noopener noreferrer">#2255</a>  Move sanitize, visibility and inlinesvisibility to shared table. (@alex-rass-88)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2261" target="_blank" rel="noopener noreferrer">#2261</a>  Add tests for <code>table.merge</code>. (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2263" target="_blank" rel="noopener noreferrer">#2263</a>  Adds a new <code>os.targetarch()</code> function. (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2264" target="_blank" rel="noopener noreferrer">#2264</a>  Show error messages from broken includes (@richard-sim)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2268" target="_blank" rel="noopener noreferrer">#2268</a>  Re-structure common docs files into sub-folders. (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2269" target="_blank" rel="noopener noreferrer">#2269</a>  Upgrade docs to latest Docusaurus version. (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2271" target="_blank" rel="noopener noreferrer">#2271</a>  Add <code>linker</code> flag and <code>LLD</code> support. (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2272" target="_blank" rel="noopener noreferrer">#2272</a>  Fixed issue with include failing to find embedded files (@LORgames)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2274" target="_blank" rel="noopener noreferrer">#2274</a>  Port Premake to Cosmopolitan Libc (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2277" target="_blank" rel="noopener noreferrer">#2277</a>  Add C++23 cppdialect (@jlaumon)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2278" target="_blank" rel="noopener noreferrer">#2278</a>  Prevent empty arrays as expected values for test.contains and test.excludes (@LORgames)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2279" target="_blank" rel="noopener noreferrer">#2279</a>  Added ci job to simplify required checks in PRs (@LORgames)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2280" target="_blank" rel="noopener noreferrer">#2280</a>  Upgrade <code>libcurl</code> to latest. (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2281" target="_blank" rel="noopener noreferrer">#2281</a>  Fix vstudio/MSC not supporting the C++23 flag yet (@jlaumon)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2283" target="_blank" rel="noopener noreferrer">#2283</a>  Miscelanneous cleanups (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2284" target="_blank" rel="noopener noreferrer">#2284</a>  Fix <code>os.host</code> for Cosmopolitan build (@tritao)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2287" target="_blank" rel="noopener noreferrer">#2287</a>  [doc] Write doc for <code>unsignedchar</code> (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2294" target="_blank" rel="noopener noreferrer">#2294</a>  Add projects web and github (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2299" target="_blank" rel="noopener noreferrer">#2299</a>  Remove generated "website/node_modules"'s files from project (@Jarod42)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2301" target="_blank" rel="noopener noreferrer">#2301</a>  Fix spelling insice -&gt; inside (@jonesy-b-dev)</li>
+<li><a href="https://github.com/premake/premake-core/pull/2316" target="_blank" rel="noopener noreferrer">#2316</a>  Update modules.md (@day-garwood)</li>
+</ul>
+<p>Additional gratitude and good wishes to everyone who helped review pull requests and triage issues this cycle. Projects like this don't work without you.</p>
+<div>
+	<a href="https://opencollective.com/_fivem" target="_blank" rel="noopener noreferrer">
+		<img decoding="async" loading="lazy" src="https://images.opencollective.com/_fivem/2f78b5f/logo/128.png" class="img_ev3q">
+	</a>
+</div>
+<p>A big shout out to our premier sponsor <strong><a href="https://opencollective.com/_fivem" target="_blank" rel="noopener noreferrer">Cfx.re</a></strong> and all <a href="https://opencollective.com/premake#section-contributors" target="_blank" rel="noopener noreferrer">our monthly backers</a>—be sure to check out their work and support them back if you can!</p>
+<p>We welcome questions, suggestions, and concerns. Message or DM us at <a href="https://twitter.com/premakeapp" target="_blank" rel="noopener noreferrer">@premakeapp</a> or <a href="https://github.com/premake/premake-core/discussions" target="_blank" rel="noopener noreferrer">open a discussion on GitHub</a>.</p>]]></content>
+        <author>
+            <name>Nick Clark</name>
+            <uri>https://github.com/nickclark2016</uri>
+        </author>
+        <category label="community-updates" term="community-updates"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Community Update #10]]></title>
         <id>https://premake.github.io/blog/2021/11/21/community-update-10</id>
