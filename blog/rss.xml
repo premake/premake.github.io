@@ -4,10 +4,36 @@
         <title>Premake Blog</title>
         <link>https://premake.github.io/blog</link>
         <description>Premake Blog</description>
-        <lastBuildDate>Sat, 09 Nov 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Roadmap to 5.0]]></title>
+            <link>https://premake.github.io/blog/2024/12/22/community-update-12</link>
+            <guid>https://premake.github.io/blog/2024/12/22/community-update-12</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Premake 5.0 is the next major release of the popular build configuration tool, designed to simplify and streamline the process of generating project files for various development environments. This roadmap outlines the key milestones that will be achieved in the journey towards the first stable release of Premake 5.0.]]></description>
+            <content:encoded><![CDATA[<p>Premake 5.0 is the next major release of the popular build configuration tool, designed to simplify and streamline the process of generating project files for various development environments. This roadmap outlines the key milestones that will be achieved in the journey towards the first stable release of Premake 5.0.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="milestones">Milestones<a href="https://premake.github.io/blog/2024/12/22/community-update-12#milestones" class="hash-link" aria-label="Direct link to Milestones" title="Direct link to Milestones">​</a></h2>
+<ol>
+<li><strong>Explicit APIs for Flags</strong>: In the past, Premake has support various flags for project generation, such as <code>MFC</code> and <code>LinkTimeOptimization</code>. In the 5.0 stable release, all flags will have been replaced by dedicated APIs. The current development builds have already begun this process.</li>
+<li><strong>Deprecation and Removal of the gmake Exporter</strong>: For many years now, the <code>gmake2</code> exporter has been our suggested generator for GNU Makefiles. As the 5.0 stable release approaches, <code>gmake</code> will be moved to <code>gmakelegacy</code> and <code>gmake2</code> will become <code>gmake</code>. It is encouraged that users that are still using the legacy <code>gmake</code> exporter to try <code>gmake2</code> and report any deficiencies. The deprecation and removal process will happen over the next several beta releases, with planned complete removal within 2025.</li>
+<li><strong>Removal of Existing Deprecated APIs</strong>: There are many existing APIs that have been deprecated for several releases now in Premake, both functions and enumerations. To reduce the surface space of the API, existing deprecated APIs with replacements will be removed. Deprecated APIs without a direct replacement will be provided with either a replacement API or instructions on how to replace the behavior (where possible).</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-planned-improvements">Key Planned Improvements<a href="https://premake.github.io/blog/2024/12/22/community-update-12#key-planned-improvements" class="hash-link" aria-label="Direct link to Key Planned Improvements" title="Direct link to Key Planned Improvements">​</a></h2>
+<ol>
+<li><strong>Better Documentation</strong>: For the 5.0 release, the Premake team will be ensuring that all APIs and public-facing behaviors are sufficiently documented. This includes making sure documentation exists for each of these APIs, as well as sufficient examples of their usage. In addition to increased documentation of the Premake APIs, the guides on how to use and extend Premake will be reviewed to ensure they still demonstrate best practices and reflect upcoming API changes. The documentation will also be reviewed to ensure that there are sufficient examples of extending Premake's functionality.</li>
+<li><strong>General Bug Fixes</strong>: There are currently many open bug reports on GitHub for Premake. The team plans to prioritize the bugs and add fixes and tests where possible to prevent future regressions.</li>
+<li><strong>Improved Extension Support</strong>: In Premake 5.0-beta3, extending core functionality in Premake, especially exporters, is tedious. As the 5.0 stable release approaches, the team plans to review the mechanisms to extend toolsets and exporters. This may incur a breaking change to external modules using the existing extension mechanisms; however, documentation will be updated as these occur as well as a transition period. For these changes, community feedback is highly encouraged to make sure this is done in a way that everyone benefits from.</li>
+<li><strong>Improved CI</strong>: Currently, Premake has many build pipelines for verifying builds on various architectures, as well as running the test suites on those platforms. We are investigating improvements to the CI process, such as improved release artifact generation and more robust pipelines. This effort will also include general improvements to the release creation process.</li>
+<li><strong>Increased Testing Coverage</strong>: Premake currently has a large suite of tests, but there are gaps. As part of our push to 5.0, the development team plans to identify and add tests for the gaps in both our public API and internal functionality.</li>
+</ol>
+<p>These goals are not all encompassing of Premake 5.0's first stable release, but summarize the high level milestones that the team intends to meet. We look forward to any feedback you have regarding the upcoming changes to Premake. If you are looking to contribute to Premake but don't know where to start, take a look at the GitHub issues list or open a discussion and a member of the team will be able to direct you to where to begin.</p>
+<p>Premake would not be possible without the support of the community, our contributors, and our sponsors on <a href="https://opencollective.com/premake" target="_blank" rel="noopener noreferrer">Open Collective</a>. Thank you for your continued support throughout this exciting journey towards 5.0.</p>
+<p>The Premake Team</p>]]></content:encoded>
+            <category>community-updates</category>
+        </item>
         <item>
             <title><![CDATA[Community Update #11]]></title>
             <link>https://premake.github.io/blog/2024/11/09/community-update-11</link>
